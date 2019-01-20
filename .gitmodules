@@ -1,0 +1,6 @@
+[submodule "hlsdk"]
+	path = hlsdk
+	url = https://github.com/ValveSoftware/halflife.git
+[submodule "xash3d"]
+	path = xash3d
+	url = https://github.com/FWGS/xash3d.git
