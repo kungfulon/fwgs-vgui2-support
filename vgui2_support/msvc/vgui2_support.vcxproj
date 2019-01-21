@@ -133,6 +133,8 @@
     <ClCompile Include="..\src\BaseUISurface.cpp" />
     <ClCompile Include="..\src\CGameUIFuncs.cpp" />
     <ClCompile Include="..\src\interface.cpp" />
+    <ClCompile Include="..\src\KeyValues.cpp" />
+    <ClCompile Include="..\src\utlbuffer.cpp" />
     <ClCompile Include="..\src\vgui_controls\controls.cpp" />
     <ClCompile Include="..\src\vgui_controls\Panel.cpp" />
     <ClCompile Include="..\src\vgui_int.cpp" />
@@ -141,6 +143,7 @@
     <ClInclude Include="..\src\CBaseUI.h" />
     <ClInclude Include="..\src\BaseUISurface.h" />
     <ClInclude Include="..\src\CGameUIFuncs.h" />
+    <ClInclude Include="..\src\dbg.h" />
     <ClInclude Include="..\src\interface.h" />
     <ClInclude Include="..\src\interfaces\IBaseUI.h" />
     <ClInclude Include="..\src\interfaces\IClientPanel.h" />
@@ -159,6 +162,9 @@
     <ClInclude Include="..\src\interfaces\ISystem.h" />
     <ClInclude Include="..\src\interfaces\IVGui.h" />
     <ClInclude Include="..\src\interfaces\VGUI2.h" />
+    <ClInclude Include="..\src\KeyValues.h" />
+    <ClInclude Include="..\src\utlbuffer.h" />
+    <ClInclude Include="..\src\utlmemory.h" />
     <ClInclude Include="..\src\vgui_controls\controls.h" />
     <ClInclude Include="..\src\vgui_controls\Panel.h" />
   </ItemGroup>

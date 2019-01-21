@@ -3,6 +3,10 @@
 
 class Color {
 public:
+	inline Color(int r, int g, int b, int a) {
+		SetColor(r, g, b, a);
+	}
+
 	inline void SetColor(int r, int g, int b, int a) {
 		_color[0] = r;
 		_color[1] = g;
@@ -31,6 +35,10 @@ public:
 
 	inline int a() {
 		return _color[3];
+	}
+
+	inline unsigned char &operator[](int id) {
+		return _color[id];
 	}
 
 private:
